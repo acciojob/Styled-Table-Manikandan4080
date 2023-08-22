@@ -1,1 +1,26 @@
 /* your code */
+table{
+	border : 1px solid black;
+	border-collapse : collapse;
+	padding : 5px;
+	
+}
+table{
+	border-radius : 10px;
+	overflow : hidden;
+}
+tr:nth-child(even) {
+   background-color: #dddddd;
+}
+#heading-1{
+	background-color : #215a8e;
+	color : white;
+}
+.name{
+	width : 200px;
+	text-align : center;
+}
+.kill,.saved,.deaths,.revive,.win{
+	width : 100px;
+	text-align : center;
+}
